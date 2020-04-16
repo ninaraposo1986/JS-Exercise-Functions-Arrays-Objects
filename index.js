@@ -101,9 +101,7 @@ function temperatureInF(temp, unit) {
  * }
 */
 function makePersonObject(id, name, email) {
-  let id = 777,
-  let name = "Bozo",
-  let email = "Bozo@bozobrain.com"
+  return {id, name, email}
 }
 
 
