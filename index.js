@@ -104,6 +104,7 @@ function makePersonObject(id, name, email) {
   return {id, name, email}
 }
 
+console.log(makePersonObject(777, 'Nooner', 'ninaraposo1986@gmail.com'));
 
 
 /**
